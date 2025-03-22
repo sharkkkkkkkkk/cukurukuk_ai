@@ -1,0 +1,30 @@
+# Jangan upload node_modules
+node_modules/
+node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
+# Jangan upload file build
+.next/
+out/
+
+# Jangan upload file konfigurasi lingkungan
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jangan upload file log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jangan upload cache dan dependensi yang tidak diperlukan
+.pnpm-debug.log*
+.DS_Store
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
+.npm
+npm-debug.log*
+.history/
